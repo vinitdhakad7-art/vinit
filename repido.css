@@ -1,0 +1,44 @@
+/* Existing styles remain unchanged */
+
+/* Responsive styles */
+
+@media (max-width: 600px) {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    #main{
+        width: 1400px;
+        background-color: aqua;
+    }
+    header p {
+        font-size: 14px;
+        margin: 5px 5px;
+    }
+    .box1{
+        margin:auto;
+    }
+    .box2 {
+        grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    }
+    .img {
+        font-size: 16px;
+    }
+    button {
+        font-size: 20px;
+        height: 50px;
+    }
+    .box3 h1 {
+        font-size: 26px;
+    }
+    .box3 p {
+        font-size: 16px;
+    }
+    .box6 h2 {
+        font-size: 28px;
+    }
+    .app h3 {
+        font-size: 16px;
+    }
+}
